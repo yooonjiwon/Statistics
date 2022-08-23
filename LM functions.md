@@ -1,20 +1,6 @@
----
-title: "linear models"
-author: "JW"
-date: "26/04/2022"
-output:
-  html_document: default
-  word_document: default
-  pdf_document: default
-editor_options:
-  chunk_output_type: console
----
+# Linear Model functions
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r}
+```r
 beta <- function(x,y,model=NULL){
   if(is.null(model)){
     return(solve(t(x)%*%x)%*%t(x)%*%y)
