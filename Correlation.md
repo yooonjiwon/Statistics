@@ -1,6 +1,6 @@
 # Correlation methods
 
-## Pearson
+## Pearson or Linear regression
 Linear relationship
 ### Types of variable
 - Two continuous
@@ -18,6 +18,6 @@ Monotonic relationship
 - Two continuous
 - Ordinal
 
-## Point-biserial
+## Point-biserial or linear regression
 ### Types of variable
 - Continuous & Categorical
